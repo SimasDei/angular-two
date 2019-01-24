@@ -19,9 +19,12 @@ import { ThaiWeddingsComponent } from './weddings/thai-weddings/thai-weddings.co
 import { WesternWeddingsComponent } from './weddings/western-weddings/western-weddings.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { OffersComponent } from './offers/offers.component';
+import { AuthComponent } from './auth/auth.component';
+import { SigninComponent } from './auth/signin/signin.component';
+import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
-  declarations: [AppComponent, AccomodationComponent, RoomsComponent, FoodBeverageComponent, RestaurantComponent, BarsComponent, LifestyleComponent, WelnessAndSpaComponent, ResortActivitiesComponent, ExperiencesComponent, ExcursionsComponent, WeddingsComponent, ThaiWeddingsComponent, WesternWeddingsComponent, CelebrationsComponent, OffersComponent],
+  declarations: [AppComponent, AccomodationComponent, RoomsComponent, FoodBeverageComponent, RestaurantComponent, BarsComponent, LifestyleComponent, WelnessAndSpaComponent, ResortActivitiesComponent, ExperiencesComponent, ExcursionsComponent, WeddingsComponent, ThaiWeddingsComponent, WesternWeddingsComponent, CelebrationsComponent, OffersComponent, AuthComponent, SigninComponent, SignupComponent],
   imports: [BrowserModule, BrowserAnimationsModule, MaterialModule],
   providers: [],
   bootstrap: [AppComponent]

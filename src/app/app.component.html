@@ -1,9 +1,9 @@
-<button
-  matBadge="9"
-  matBadgePosition="before"
-  matBadgeColor="accent"
-  mat-raised-button
-  color="primary"
->
-  Action
-</button>
+<mat-sidenav-container>
+  <mat-sidenav> <app-sidenav-list> </app-sidenav-list> </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header> </app-header>
+    <app-navtabs> </app-navtabs>
+  </mat-sidenav-content>
+  <router-outlet></router-outlet>
+</mat-sidenav-container>

@@ -1,18 +1,9 @@
-html {
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-body {
-  line-height: 1.5; /* a nice line-height */
-}
-
-mad-sidenav-container,
+mat-sidenav-container,
 mat-sidenav-content,
 mat-sidenav {
   height: 100%;
 }
 
 mat-sidenav {
-  width: 20rem;
+  width: 25rem;
 }

@@ -1,0 +1,12 @@
+.toolbar__logo--container {
+  width: 100%;
+}
+
+.toolbar__logo--image {
+  width: 14rem;
+  margin-right: 4rem;
+}
+
+mat-toolbar {
+  height: 10rem;
+}
